@@ -26,3 +26,10 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: npm run deploy
+    - name: Install dependencies
+      run: |
+      
+        npm install
+        npm install react-scripts --save-dev  # Add this line to install react-scripts
+
+      
