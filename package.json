@@ -1,0 +1,16 @@
+{
+  "name": "StackAdaptDemo",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://mathiolucas.github.io/stackadaptdemo", 
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  }
+}
